@@ -21,3 +21,4 @@ jobs:
           script: |
             cd ericgchu.github.io 
             git pull 
+            cp ./* ../../pub/
