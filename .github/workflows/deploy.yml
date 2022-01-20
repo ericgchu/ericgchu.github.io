@@ -1,13 +1,14 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Clone workflow 
+name: Deploy workflow 
 
 # Controls when the workflow will run
 on: 
-  workflow_dispatch:
+  push: 
+    branches: [main]
 jobs: 
   jobs_one:
-    name: clone
+    name: Deploy
     runs-on: Ubuntu-latest
     steps:
       - name: testing 
@@ -18,4 +19,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            git clone git@github.com:ericgchu/ericgchu.github.io.git
+            cd ericgchu.github.io 
+            git pull 
