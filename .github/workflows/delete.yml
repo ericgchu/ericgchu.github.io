@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 jobs: 
   jobs_one:
-    name: Delete
+    name: delete
     runs-on: Ubuntu-latest
     steps:
       - name: testing 
