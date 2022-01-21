@@ -18,6 +18,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            rm -rf ericgchu.github.io # Create a clean slate  
-            cd .. 
-            rm -r pub/ericgchu.github.io
+            rm -rf ericgchu.github.io 
+            rm  ../pub/ericgchu.github.io
