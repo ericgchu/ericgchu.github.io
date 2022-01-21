@@ -21,3 +21,5 @@ jobs:
           script: |
             cd ericgchu.github.io 
             git pull 
+            cd ..                              # Move into the parent directory 
+            cp -r ericgchu.github.io ../pub/   # Publish to make it publicly viewable 
