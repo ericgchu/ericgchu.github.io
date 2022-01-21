@@ -20,4 +20,4 @@ jobs:
           script: |
             rm -rf ericgchu.github.io 
             cd ../pub
-            rm ericgchu.github.io
+            rm -rf ericgchu.github.io
