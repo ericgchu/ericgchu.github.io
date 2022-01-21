@@ -21,4 +21,4 @@ jobs:
             unalias rm
             rm -rf ericgchu.github.io # Create a clean slate  
             cd .. 
-            rm -r ../pub/* 
+            rm -r pub/* 
