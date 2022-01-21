@@ -21,5 +21,5 @@ jobs:
           script: |
             cd ericgchu.github.io 
             git pull 
-            cd ..
+            cd ../..
             cp -r ../ericgchu.github.io pub   # Publish to make it publicly viewable 
