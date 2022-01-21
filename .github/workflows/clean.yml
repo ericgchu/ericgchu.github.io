@@ -20,4 +20,5 @@ jobs:
           script: |
             unalias rm
             rm -rf ericgchu.github.io # Create a clean slate  
-            # rm -r ../pub/* 
+            cd .. 
+            rm -r ../pub/* 
