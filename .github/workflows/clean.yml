@@ -18,7 +18,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            unalias rm
             rm -rf ericgchu.github.io # Create a clean slate  
             cd .. 
             rm -r pub/* 
