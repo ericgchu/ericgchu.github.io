@@ -1,13 +1,13 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Clean workflow 
+name: Delete workflow 
 
 # Controls when the workflow will run
 on: 
   workflow_dispatch:
 jobs: 
   jobs_one:
-    name: clone
+    name: Delete
     runs-on: Ubuntu-latest
     steps:
       - name: testing 
