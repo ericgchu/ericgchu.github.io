@@ -18,6 +18,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+            # Remove all presence of my website for a clean slate
             rm -rf ericgchu.github.io 
             cd ../pub
             rm -rf ericgchu.github.io
