@@ -21,4 +21,4 @@ jobs:
           script: |
             cd ericgchu.github.io 
             git pull 
-            cp -r ../ericgchu.github.io ../../pub/
+            cp -r ericgchu.github.io ../../pub/
