@@ -19,4 +19,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             rm -rf ericgchu.github.io 
-            rm  ../pub/ericgchu.github.io
+            cd ../pub
+            rm ericgchu.github.io
